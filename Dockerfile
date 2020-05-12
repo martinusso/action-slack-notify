@@ -8,6 +8,7 @@ LABEL "com.github.actions.description"="This action will send notification to Sl
 WORKDIR ${GOPATH}/src/github.com/martinusso/action-slack-notify
 COPY main.go ${GOPATH}/src/github.com/martinusso/action-slack-notify
 
+ENV CGO_ENABLED=0
 ENV GOOS linux
 
 RUN go get -v ./...
