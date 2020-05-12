@@ -1,0 +1,9 @@
+name: 'Slack Notify'
+description: 'This action will send a notification to Slack'
+author: 'martinusso'
+runs:
+  using: 'docker'
+  image: 'docker://rtcamp/action-slack-notify:v2.0.2'
+branding:
+  icon: 'bell'
+  color: 'yellow'
