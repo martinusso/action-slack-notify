@@ -1,4 +1,4 @@
-FROM FROM golang:alpine as builder
+FROM golang:alpine as builder
 
 LABEL "com.github.actions.icon"="bell"
 LABEL "com.github.actions.color"="yellow"
