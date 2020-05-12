@@ -3,7 +3,7 @@ description: 'This action will send a notification to Slack'
 author: 'martinusso'
 runs:
   using: 'docker'
-  image: 'docker://rtcamp/action-slack-notify:v2.0.2'
+  image: 'docker://martinusso/action-slack-notify:v1.2.0'
 branding:
   icon: 'bell'
   color: 'yellow'

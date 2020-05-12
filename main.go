@@ -101,7 +101,7 @@ func main() {
 		newfields := []Field{
 			{
 				Title: "Pull Request URL",
-				Value: "https://github.com/" + os.Getenv("GITHUB_REPOSITORY") + "/commit/" + os.Getenv("PULL_REQUEST_NUMBER"),
+				Value: "https://github.com/" + os.Getenv("GITHUB_REPOSITORY") + "/pull/" + os.Getenv("PULL_REQUEST_NUMBER"),
 				Short: false,
 			},
 		}
